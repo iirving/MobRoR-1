@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MobR</title>
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link rel="apple-touch-icon" href="/images/rails.png"/>
+	<link rel="shortcut icon" href="/images/rails.png" />
+	
+	<link rel="stylesheet" href="/stylesheets/scaffold.css">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script> 
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+	<script src="/javascripts/rails.js">
+
+	<%= csrf_meta_tag %>
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-23181432-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</head>
+
+<body>
+	<div data-role="page" id="home" data-url="home">
+
+		<%= yield %>
+	
+	</div>
+	
+</body>
+</html>

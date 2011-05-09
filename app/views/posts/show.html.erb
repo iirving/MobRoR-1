@@ -1,0 +1,9 @@
+<div data-role="header" data-position="fixed">
+  <h1><%= @post.title %></h1>
+  <%= link_to 'Home', posts_url, "class" => "ui-btn-right" %>
+</div>
+
+<div data-role="content">
+  <%= @post.body %>
+</div>
+<%= render 'footer' %>

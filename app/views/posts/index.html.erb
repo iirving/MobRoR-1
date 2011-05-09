@@ -1,0 +1,16 @@
+<div data-role="header" data-theme="b" data-position="fixed">
+	<h1>Posts <%= ">> You don't Look like a Moblie Client :(" if @browser_type != "mobile"  %></h1>
+	<%= link_to 'New', new_post_path, "data-icon" => "plus", "class" => "ui-btn-right" %>
+</div>
+
+<div data-role="content">
+  <ul data-role="listview">
+    <% @posts.each do |post| %>
+    <li>
+      <%= link_to post.title, post, "data-transition" => "flip" %>
+      <%= link_to 'edit post', edit_post_path(post), "data-icon" => "gear", "data-transition" => "slide" %>
+    </li>
+    <% end %>
+  </ul>
+</div>
+<%= render 'footer' %>
