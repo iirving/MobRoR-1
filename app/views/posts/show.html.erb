@@ -4,6 +4,10 @@
 </div>
 
 <div data-role="content">
-  <%= @post.body %>
+  <%= @post.body %><br />
+<div style="font-size:small;text-align:right">
+	last update: <%= time_ago_in_words(@post.updated_at) %>
 </div>
+</div>
+
 <%= render 'footer' %>
