@@ -1,10 +1,8 @@
-<h1>Welcome to MobRoR 1</h1>
-
-<h2>What is MobRoR 1?</h2>
+What is MobRoR 1?
 
 MobRoR 1 is a very simple Mobile Ruby on Rails Web Application (Web App) which uses Ruby 1.9.2, Ruby on Rails 3.0.5 and jQuery Mobile (specifically the jQuery Mobile 1 Alpha 4.1 maintenance release)
 
-<h2>Features:</h2>
+Features:
 
 The Web App lists a set of post's, view a post, edit a post (title and body), delete a post, and add new posts. It has a fixed header and footer bars and the footer bar demonstrates a popup dialog box with links to external urls.
 
@@ -12,7 +10,7 @@ The Web App also does a mobile client detection, in the Application Controller, 
 
 On a Mobile Client, settings in the header section remove the url bar if it is add to the Home Page, and the Fav Icon is set in both to usual way and the iOS way
 
-<h2>Live Demo:</h2>
+Live Demo:
 
 The Web App is running on Heroku at http://mobror.heroku.com/ for your tasting pleasure.  
 
@@ -20,6 +18,6 @@ To prevent data graffiti, there is a crone.rake file which Heroku runs daily to 
 
 Source Code Available at https://github.com/iirving/MobRoR-1
 
-<h2>Created by :</h2>
+Created by :
 
 Ian Irving, a Toronto based Ruby on Rails Developer who can be found at Ian@FalsePositives.com and blogs at http://FalsePositives.com or Connected Thinking Inc. http://www.connectedthinking.com/  where he is Building the People and Data Driven Web. May 2011  
