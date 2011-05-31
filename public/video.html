@@ -12,12 +12,17 @@
 </head> 
 <body> 
 <div data-role="page">
-        <div data-role="header" data-theme="d" data-position="inline">
-            <h1>Video</h1>
+        <div data-role="header" data-position="inline">
+            <h1>HTML5 Video</h1>
         </div>
-        <div data-role="content" data-theme="c">
-			<video src="http://upload.wikimedia.org/wikipedia/commons/7/79/Big_Buck_Bunny_small.ogv" controls="controls">
-	     	Your browser does not support HTML5 Video :(
+        <div data-role="content">
+		
+			<video controls preload>
+				  <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
+				  <source src="http://upload.wikimedia.org/wikipedia/commons/7/79/Big_Buck_Bunny_small.ogv" type="video/ogg" />
+	     			Your browser does not support HTML5 Video :(
+	     	</video>
+
     	</div>
 </body>
 </html>
